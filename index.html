@@ -15,6 +15,8 @@
         <!-- {{name}} has a message for you: <br> -->
         Original: {{sayMessage()}} <br>
         Loves: {{sayLovesMessage()}}<br>
+        Truth: {{sayLovesMessage() | truth : 'healthy' : 'cookie'}}<br>
+        BIG TRUTH: {{sayLovesMessage() | truth : 'healthy' : 'cookie' | uppercase}}<br>
     </div>
 </body>
 </html>
