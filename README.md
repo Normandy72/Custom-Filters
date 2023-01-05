@@ -1,4 +1,4 @@
-### Steps to create customs filters
+### Steps to create custom filters
 #### Step 1
 Define Filter Factory Function
 ```
@@ -13,7 +13,7 @@ function customFilterFactory(){
 Register Filter Factory With Module
 ```
 angular.module('app', [])
-.controller('ctrl', Ctrl);
+.controller('ctrl', Ctrl)
 .filter('custom', customFilterFactory);
 ```
 #### Step 3

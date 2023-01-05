@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="FilterApp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,12 @@
     <title>Custom Filters</title>
 </head>
 <body>
-    
+    <h1>Custom Filters</h1>
+    <div ng-controller="FilterController">
+        <!-- Message is: <br> -->
+        <!-- {{name}} has a message for you: <br> -->
+        Original: {{sayMessage()}} <br>
+        Loves: {{sayLovesMessage()}}<br>
+    </div>
 </body>
 </html>
